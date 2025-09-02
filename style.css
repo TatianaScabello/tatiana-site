@@ -1,0 +1,14 @@
+:root {
+  --bg: #FDFBF8;
+  --card: #FFFFFF;
+  --text: #0F172A;
+  --muted: #475569;
+  --brand: #FAC26A;
+  --brand-2: #F7D9A7;
+  --line: #E2E8F0;
+  --radius: 16px;
+  --container: 1120px;
+  --shadow: 0 8px 30px rgba(2,12,27,0.06);
+}
+body { font-family: Arial, sans-serif; background: var(--bg); color: var(--text); }
+h1 { color: var(--brand); }
