@@ -1,234 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dra. Tatiana Scabello Constantino — Psiquiatria & Psicoterapia</title>
-  <meta name="description" content="Dra. Tatiana Scabello Constantino — Psiquiatra. Atuação em Pinheiros, São Paulo. Medicina endocanabinóide, psicoterapia psicanalítica e atendimentos presenciais/online." />
-
-  <!-- Fonts (Google Fonts) -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <style>
-    :root{
-      --accent: #FAC26A; /* palette requested */
-      --bg: #FFFFFF;
-      --muted: #6B6B6B;
-      --text: #121212;
-      --maxw: 1100px;
-      --radius: 14px;
-      --card-shadow: 0 6px 20px rgba(18,18,18,0.06);
-    }
-    *{box-sizing:border-box}
-    body{font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:var(--text); background:var(--bg); -webkit-font-smoothing:antialiased}
-
-    header{border-bottom:1px solid #F3F3F3; background:linear-gradient(90deg, rgba(250,194,106,0.06), rgba(250,194,106,0));}
-    .container{max-width:var(--maxw); margin:0 auto; padding:28px}
-    .nav{display:flex; align-items:center; justify-content:space-between}
-    .brand{display:flex; gap:14px; align-items:center}
-    .logo{width:54px; height:54px; border-radius:12px; background:linear-gradient(135deg,var(--accent), #F7B96C); display:flex; align-items:center; justify-content:center; color:white; font-family:'Playfair Display'; font-weight:700}
-    nav ul{display:flex; gap:18px; list-style:none; margin:0; padding:0}
-    nav a{color:var(--muted); text-decoration:none; font-weight:600}
-    nav a.cta{background:var(--accent); padding:8px 14px; color:#111; border-radius:10px}
-
-    /* Hero */
-    .hero{display:grid; grid-template-columns:1fr 420px; gap:32px; align-items:center; padding:48px 0}
-    .hero h1{font-family:'Playfair Display'; font-size:34px; margin:0 0 12px}
-    .hero p.lead{color:var(--muted); margin:0 0 24px}
-    .card{background:white; border-radius:var(--radius); box-shadow:var(--card-shadow); padding:20px}
-
-    /* Sections */
-    section{padding:40px 0}
-    .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:28px}
-    .small{font-size:14px; color:var(--muted)}
-
-    /* Services list */
-    .services{display:flex; flex-direction:column; gap:12px}
-    .service{display:flex; gap:14px; align-items:flex-start}
-    .service .dot{width:8px; height:8px; border-radius:50%; background:var(--accent); margin-top:8px}
-
-    footer{padding:28px 0; border-top:1px solid #F3F3F3}
-
-    /* Responsive */
-    @media (max-width:900px){
-      .hero{grid-template-columns:1fr;}
-      .grid-2{grid-template-columns:1fr}
-      nav ul{display:none}
-      .container{padding:18px}
-      .logo{width:48px;height:48px}
-    }
-
-    /* Utility */
-    .muted{color:var(--muted)}
-    .cta-btn{display:inline-block;background:var(--accent); padding:10px 16px; border-radius:10px; font-weight:600}
-    a.phone{color:var(--text); font-weight:600}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Tatiana Scabello Constantino - Psiquiatria</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <div class="brand">
-        <div class="logo">TS</div>
-        <div>
-          <div style="font-weight:700">Dra. Tatiana Scabello Constantino</div>
-          <div class="small">Psiquiatria • Medicina Endocanabinóide • Psicoterapia Psicanalítica</div>
+    <!-- ======= HEADER / NAVIGATION ======= -->
+    <header>
+        <nav>
+            <div class="logo">Dra. Tatiana Scabello</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#areas">Áreas de atuação</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======= HOME ======= -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Dra. Tatiana Scabello Constantino</h1>
+            <p>Médica psiquiatra | Medicina endocanabinóide | Psicoterapia psicanalítica</p>
         </div>
-      </div>
-      <nav>
+        <div class="home-image">
+            <img src="images/foto-perfil.jpg" alt="Dra. Tatiana Scabello">
+        </div>
+    </section>
+
+    <!-- ======= SOBRE MIM ======= -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre mim</h2>
+        <p>Formada pela Faculdade de Medicina de Ribeirão Preto da USP (FMRP-USP), com residência médica em Psiquiatria no Hospital do Servidor Estadual (IAMSPE). Atuo em São Paulo, principalmente no bairro de Pinheiros, atendendo pacientes de alto padrão.</p>
+        <p>Minha abordagem combina psiquiatria, medicina endocanabinóide e psicoterapia psicanalítica, proporcionando cuidado integral e personalizado.</p>
+        <img src="images/consultorio.jpg" alt="Consultório" class="sobre-img">
+    </section>
+
+    <!-- ======= ÁREAS DE ATUAÇÃO ======= -->
+    <section id="areas" class="areas">
+        <h2>Áreas de atuação</h2>
+        <div class="area-item">
+            <h3>Psiquiatria</h3>
+            <p>Tratamento de diversos transtornos psiquiátricos com abordagem moderna e individualizada.</p>
+        </div>
+        <div class="area-item">
+            <h3>Medicina Endocanabinóide</h3>
+            <p>Uso terapêutico de canabinoides para condições específicas, com acompanhamento seguro e ético.</p>
+        </div>
+        <div class="area-item">
+            <h3>Psicoterapia Psicanalítica</h3>
+            <p>Oferecemos psicoterapia de orientação psicanalítica para autoconhecimento e bem-estar emocional.</p>
+        </div>
+    </section>
+
+    <!-- ======= SERVIÇOS ======= -->
+    <section id="servicos" class="servicos">
+        <h2>Serviços</h2>
         <ul>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#areas">Áreas</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#contact" class="cta">Contato</a></li>
+            <li>Atendimento presencial em consultório</li>
+            <li>Atendimento online por videochamada</li>
+            <li>Consultas individuais e acompanhamento contínuo</li>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <div>
-        <h1>Atendimento psiquiátrico com acolhimento, discrição e excelência.</h1>
-        <p class="lead">Sou médica psiquiatra (FMRP-USP) com residência em Psiquiatria pelo IAMSPE. Atuo em Pinheiros, São Paulo — ofereço avaliação e tratamento personalizado, com atenção especial à medicina endocanabinóide e psicoterapia de orientação psicanalítica.</p>
-        <a class="cta-btn" href="#contact">Agende uma consulta</a>
-      </div>
-
-      <div class="card">
-        <div style="display:flex;flex-direction:column;gap:10px">
-          <div style="font-weight:700">Atendimentos</div>
-          <div class="small">Presencial (Pinheiros) • Online por plataforma segura</div>
-          <div style="height:12px"></div>
-          <div style="display:flex;justify-content:space-between;align-items:center">
-            <div class="small">Telefone</div>
-            <div><a class="phone" href="tel:+551199999999">(11) 9 9999-9999</a></div>
-          </div>
-          <div style="display:flex;justify-content:space-between;align-items:center">
-            <div class="small">WhatsApp</div>
-            <div><a class="phone" href="https://wa.me/551199999999">(11) 9 9999-9999</a></div>
-          </div>
-          <div style="display:flex;justify-content:space-between;align-items:center">
-            <div class="small">E-mail</div>
-            <div><a href="mailto:contato@tatianapsiquiatra.com.br">contato@tatianapsiquiatra.com.br</a></div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section id="about">
-      <div class="grid-2">
-        <div>
-          <h2>Sobre mim</h2>
-          <p class="muted">Formação: Faculdade de Medicina de Ribeirão Preto — USP (FMRP-USP). Residência em Psiquiatria: Hospital do Servidor Estadual (IAMSPE).</p>
-          <p>Tenho experiência no tratamento de diversos transtornos psiquiátricos, com foco em avaliações clínicas cuidadosas, planos terapêuticos individualizados e integração de abordagens farmacológicas e psicoterapêuticas.</p>
-        </div>
-        <div>
-          <h3>Abordagem</h3>
-          <p class="muted">Combino conhecimento biomédico com uma escuta psicanalítica — a escuta clínica orienta escolhas terapêuticas. Ofereço supervisão e orientação a profissionais quando solicitado.</p>
-        </div>
-      </div>
+    <!-- ======= CONTATO ======= -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form id="whatsappForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            <button type="submit">Enviar WhatsApp</button>
+        </form>
     </section>
 
-    <section id="areas">
-      <h2>Áreas de atuação</h2>
-      <div class="grid-2">
-        <div>
-          <h4>Psiquiatria</h4>
-          <p class="small">Avaliação e tratamento de transtornos de humor, ansiedade, transtornos psicóticos, transtornos do sono, dependência, entre outros. Uso criterioso de medicação e acompanhamento longitudinal.</p>
+    <footer>
+        <p>&copy; 2025 Dra. Tatiana Scabello Constantino. Todos os direitos reservados.</p>
+    </footer>
 
-          <h4>Medicina Endocanabinóide</h4>
-          <p class="small">Abordagem informada por evidências para condições selecionadas, com explicações claras sobre vantagens, riscos e legalidade. O objetivo é oferecer alternativas terapêuticas seguras e monitoradas.</p>
-        </div>
-        <div>
-          <h4>Psicoterapia Psicanalítica</h4>
-          <p class="small">Ofereço psicoterapia de orientação psicanalítica para pacientes que buscam um trabalho psicoterápico de profundidade, com acompanhamento regular e confidencial.</p>
-
-          <h4>Avaliações & Consultoria</h4>
-          <p class="small">Avaliações diagnósticas completas, pareceres e orientações para outros profissionais e formação de consultórios sob demanda.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
-      <h2>Serviços</h2>
-      <div class="services">
-        <div class="service"><div class="dot"></div><div><strong>Consulta inicial (60–90 min)</strong><div class="small">Avaliação detalhada, histórico e plano terapêutico.</div></div></div>
-        <div class="service"><div class="dot"></div><div><strong>Consultas de acompanhamento (30–50 min)</strong><div class="small">Revisão de sintomas, ajustes terapêuticos e psicoterapia quando aplicável.</div></div></div>
-        <div class="service"><div class="dot"></div><div><strong>Orientação sobre tratamentos endocanabinóides</strong><div class="small">Discussão de evidências, monitoramento e integração ao plano terapêutico, quando indicado.</div></div></div>
-        <div class="service"><div class="dot"></div><div><strong>Atendimento online</strong><div class="small">Atendimento seguro por plataforma de vídeo (telemedicina quando aplicável e regulamentado).</div></div></div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contato & Localização</h2>
-      <div class="grid-2">
-        <div>
-          <div class="card">
-            <p style="margin:0"><strong>Endereço</strong></p>
-            <p class="small" style="margin:4px 0 12px">Pinheiros, São Paulo — endereço completo fornecido mediante agendamento.</p>
-            <p style="margin:0"><strong>Telefone / WhatsApp</strong></p>
-            <p class="small" style="margin:4px 0">(11) 9 9999-9999 — <a href="https://wa.me/551199999999">Abrir WhatsApp</a></p>
-            <p style="margin:0"><strong>E-mail</strong></p>
-            <p class="small" style="margin:4px 0">contato@tatianapsiquiatra.com.br</p>
-          </div>
-        </div>
-        <div>
-          <!-- MAP: Replace the src parameter's place-holder with the real embed from Google Maps (see README for how to get embed code) -->
-          <div style="border-radius:12px; overflow:hidden; box-shadow:var(--card-shadow);">
-            <iframe id="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0!2d-46.0!3d-23.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDAwJzAwLjAiUyA0NsKwMDAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v0000000000000" width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <p class="small" style="margin-top:10px">Observação: substitua o iframe pelo código de embed do Google Maps com o endereço exato do consultório.</p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
-      <div>
-        <div style="font-weight:700">Dra. Tatiana Scabello Constantino</div>
-        <div class="small">Psiquiatria • Pinheiros, São Paulo</div>
-      </div>
-      <div class="small">© " + new Date().getFullYear() + " — Todos os direitos reservados.</div>
-    </div>
-  </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
-
-
-<!--
-README / Estrutura de pastas (coloque isto como README.txt quando montar o zip):
-
-/site-root
-  /index.html  (arquivo acima)
-  /assets/
-    /images/   (substitua com imagens otimizadas: hero.jpg, consultorio.jpg, team.jpg)
-    /fonts/    (opcional)
-  /README.txt (instruções abaixo)
-
-README.txt (resumo rápido)
---------------------------
-1) Substitua os placeholders de contato e o iframe do mapa pelo endereço/telefone reais.
-2) Coloque imagens otimizadas em /assets/images e referencie-as no index.html.
-3) Para hospedar gratuitamente:
-   - GitHub Pages: crie um repositório, envie os arquivos e ative GitHub Pages nas configurações (publish source = main branch / docs folder). (ver: GitHub Pages docs)
-   - Netlify: crie uma conta gratuita e arraste a pasta do site para Deploy (ou conecte ao GitHub). (ver: Netlify pricing/docs)
-   - Vercel: conecte o repositório GitHub e importe o projeto; deploy automático em cada push. (ver: Vercel docs)
-
-Passo-a-passo simples para subir no GitHub (resumido):
-1. Crie uma conta em github.com e um novo repositório público (por ex. tatiana-site).
-2. Faça commit dos arquivos (index.html e assets) e dê push para o repositório.
-3. Vá em Settings -> Pages e selecione a branch que contém o site (ex: main). Salve.
-4. Aguarde alguns minutos; seu site estará em https://yourusername.github.io/tatiana-site/
-
-Como editar textos/imagens futuramente:
-- A maneira mais simples: edite localmente index.html e faça push novamente para o repositório.
-- Alternativa sem programação: use o editor embutido do GitHub (Edit -> Commit) para pequenas alterações.
-- Se usar Netlify/Vercel: manter o conteúdo em um repositório Git garante deploys automáticos a cada push.
-
-Responsivo e otimização:
-- O CSS incluído é responsivo; para velocidade, otimize imagens antes de enviar (exportar para web, usar formats como WebP).
-- Para segurança/privacidade: não exponha documentos sensíveis no repositório público.
-
--->
