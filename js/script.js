@@ -12,8 +12,9 @@ document.getElementById('contato-form').addEventListener('submit', function(e) {
     }
 
     // Substitua pelo seu número do WhatsApp com código do país (ex: 5511999999999)
-    const numeroWhatsApp = '5511999999999';
+    const numeroWhatsApp = '5511992878639';
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
     
     window.open(url, '_blank');
 });
+
